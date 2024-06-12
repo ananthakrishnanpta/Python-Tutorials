@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Coding Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Python Coding Solutions</h1>
+        <p>Curated by Krishna</p>
+    </header>
+    <main>
+        <ol>
+            <li>
+                <strong>Question:</strong> Write a Python program to reverse a string.
+                <pre><code>def reverse_string(s):
+    return s[::-1]
+print(reverse_string("hello"))  # Output: "olleh"</code></pre>
+            </li>
+            <li>
+                <strong>Question:</strong> Write a Python function to check if a number is prime.
+                <pre><code>def is_prime(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+print(is_prime(7))  # Output: True</code></pre>
+            </li>
+            <li>
+                <strong>Question:</strong> Write a Python program to find the factorial of a number.
+                <pre><code>def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+print(factorial(5))  # Output: 120</code></pre>
+            </li>
+            <li>
+                <strong>Question:</strong> Write a Python program to find the greatest common divisor (GCD) of two numbers.
+                <pre><code>def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+print(gcd(48, 18))  # Output: 6</code></pre>
+            </li>
+            <li>
+                <strong>Question:</strong> Write a Python program to generate the Fibonacci series up to n terms.
+                <pre><code>def fibonacci(n):
+    a, b = 0, 1
+    result = []
+    while n > 0:
+        result.append(a)
+        a, b = b, a + b
+        n -= 1
+    return result
+print(fibonacci(10))  # Output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]</code></pre>
+            </li>
+            <!-- More solutions here, following the same format as above -->
+        </ol>
+    </main>
+</body>
+</html>
