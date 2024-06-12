@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1 {
+    margin: 0.2em 0;
+}
+
+p {
+    margin: 0;
+    font-style: italic;
+}
+
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+pre {
+    background-color: #f4f4f4;
+    border-left: 4px solid #4CAF50;
+    padding: 1em;
+    overflow-x: auto;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+}
